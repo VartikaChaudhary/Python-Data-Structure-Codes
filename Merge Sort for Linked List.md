@@ -1,3 +1,4 @@
+```python
 class Node: 
 	def __init__(self, data): 
 		self.data = data 
@@ -80,3 +81,6 @@ if __name__ == '__main__':
 	li.head = li.mergeSort(li.head) 
 	print ("Sorted Linked List is:") 
 	printList(li.head) 
+```
+
+![](https://github.com/VartikaChaudhary/Python-Data-Structure-Codes/blob/main/MSLL.png)
