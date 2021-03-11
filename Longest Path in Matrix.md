@@ -1,3 +1,4 @@
+```python
 n = 3
 def findLongestFromACell(i, j, mat, dp): 
 	if (i<0 or i>= n or j<0 or j>= n): 
@@ -34,3 +35,6 @@ mat = [[1, 2, 9],
 	[5, 3, 8], 
 	[4, 6, 7]] 
 print("Length of the longest path is ", finLongestOverAll(mat))
+```
+
+![Output of Longest Path in Matrix](https://github.com/VartikaChaudhary/Python-Data-Structure-Codes/blob/main/LPM.png)
