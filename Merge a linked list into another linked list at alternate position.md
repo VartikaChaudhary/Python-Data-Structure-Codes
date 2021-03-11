@@ -1,3 +1,4 @@
+```python
 class LinkedList(object): 
 	def __init__(self): 
 		self.head = None
@@ -28,9 +29,9 @@ class LinkedList(object):
 	def printList(self): 
 		temp = self.head 
 		while temp != None: 
-			print str(temp.data), 
+			print(temp.data), 
 			temp = temp.next
-		print '' 
+		print ('') 
 
 llist1 = LinkedList() 
 llist2 = LinkedList() 
@@ -38,19 +39,22 @@ llist2 = LinkedList()
 llist1.push(3) 
 llist1.push(2) 
 llist1.push(1) 
-print "First Linked List:"
+print ("First Linked List:")
 llist1.printList() 
 
 llist2.push(8) 
 llist2.push(7) 
 llist2.push(6) 
-print "Second Linked List:"
+print ("Second Linked List:")
 llist2.printList() 
 
 llist1.merge(llist2) 
 
-print "Modified first linked list:"
+print ("Modified first linked list:")
 llist1.printList() 
 
-print "Modified second linked list:"
+print ("Modified second linked list:")
 llist2.printList()
+```
+
+![](https://github.com/VartikaChaudhary/Python-Data-Structure-Codes/blob/main/MAP.png)
