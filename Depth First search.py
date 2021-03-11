@@ -1,32 +1,29 @@
 from collections import defaultdict
  
-class Graph:
+class Tree:
  
     def __init__(self):
-        self.graph = defaultdict(list)
+        self.tree = defaultdict(list)
  
-    def addEdge(self, u, v):
-        self.graph[u].append(v)
+    def addNode(self, u, v):
+        self.tree[u].append(v)
  
-    def DFSUtil(self, v, visited):
+    def DFSVisited(self, v, visited):
         visited.add(v)
         print(v, end=' ')
  
         for neighbour in self.graph[v]:
             if neighbour not in visited:
-                self.DFSUtil(neighbour, visited)
+                self.DFSVisited(neighbour, visited)
  
     def DFS(self, v):
         visited = set()
-        self.DFSUtil(v, visited) 
+        self.DFSVisited(v, visited) 
 
-g = Graph()
-g.addEdge(0, 1)
-g.addEdge(0, 2)
-g.addEdge(1, 2)
-g.addEdge(2, 0)
-g.addEdge(2, 3)
-g.addEdge(3, 3)
+n = Tree()
+n.addNode(0, 1)
+n.addNode(0, 2)
+n.addNode(1, 2)
  
 print("Following is DFS from (starting from vertex 1)")
-g.DFS(1)
+n.DFS(1)
