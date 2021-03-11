@@ -13,4 +13,4 @@ Y = "GXTXAYB"
 print ("Length of LCS is ", lcs(X , Y, len(X), len(Y)))
 ```
 
-![Output of Longest Common Subsequence]()
+![Output of Longest Common Subsequence](https://github.com/VartikaChaudhary/Python-Data-Structure-Codes/blob/main/LCS.png)
