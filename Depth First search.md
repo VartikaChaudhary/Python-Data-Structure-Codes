@@ -1,3 +1,5 @@
+```python
+
 from collections import defaultdict
  
 class Tree:
@@ -27,3 +29,7 @@ n.addNode(1, 2)
  
 print("Following is DFS from (starting from vertex 1)")
 n.DFS(1)
+print("\n")
+```
+
+![Output of Depth First Search Code](https://github.com/VartikaChaudhary/Python-Data-Structure-Codes/blob/main/DFS.png)
