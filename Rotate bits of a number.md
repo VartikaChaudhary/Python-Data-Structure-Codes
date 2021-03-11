@@ -1,3 +1,4 @@
+```python
 INT_BITS = 32
 
 def leftRotate(n, d): 
@@ -14,3 +15,6 @@ print(leftRotate(n, d))
 
 print("Right Rotation of", n, "by", d, "is", end=" ") 
 print(rightRotate(n, d))
+```
+
+![Output of Rotate bits of a number](https://github.com/VartikaChaudhary/Python-Data-Structure-Codes/blob/main/RBN.png)
