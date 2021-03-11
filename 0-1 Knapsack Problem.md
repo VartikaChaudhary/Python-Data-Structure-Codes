@@ -1,3 +1,4 @@
+```python
 def knapSack(W, wt, val, n):
 	if n == 0 or W == 0:
 		return 0
@@ -13,4 +14,7 @@ val = [60, 100, 120]
 wt = [10, 20, 30]
 W = 50
 n = len(val)
-print knapSack(W, wt, val, n)
+print (knapSack(W, wt, val, n))
+```
+
+![](https://github.com/VartikaChaudhary/Python-Data-Structure-Codes/blob/main/KP.png)
